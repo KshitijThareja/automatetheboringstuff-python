@@ -1,12 +1,12 @@
-# #Comma Code
+#Comma Code
 
-# def fn(*list):
-#     for i in range(len(list)):
-#         if i<(len(list)-1):
-#             print(list[i], end= ",")
-#         else:
-#             print("and", list[i])
-# fn(*['apples', 'bananas', 'tofu', 'cats'])
+def fn(*list):
+    for i in range(len(list)):
+        if i<(len(list)-1):
+            print(list[i], end= ",")
+        else:
+            print("and", list[i])
+fn(*['apples', 'bananas', 'tofu', 'cats'])
 
 #Coin Flip Streaks
 
@@ -38,4 +38,22 @@ ele.append(list[i+1])
 # print(ele, freq)
 numberOfStreaks= freq.count(6)
 print('Chance of streak: %s%%' % (numberOfStreaks / 100))
+
+
+#Character Picture Grid
+
+grid = [['.', '.', '.', '.', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['.', 'O', 'O', 'O', 'O', 'O'],
+        ['O', 'O', 'O', 'O', 'O', '.'],
+        ['O', 'O', 'O', 'O', '.', '.'],
+        ['.', 'O', 'O', '.', '.', '.'],
+        ['.', '.', '.', '.', '.', '.']]
+
+for i in range(len(grid[0])):
+    for j in range(len(grid)):
+        print(grid[j][i], end="")
+    print()
 

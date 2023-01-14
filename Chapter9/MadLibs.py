@@ -9,7 +9,6 @@ a.close()
 a= open('libs.txt', 'r')
 data= a.read()
 a.close()
-print(type(data))
 aregex= re.compile(r'ADJECTIVE|NOUN|ADVERB|VERB')
 mo= aregex.findall(data)
 for i in mo:

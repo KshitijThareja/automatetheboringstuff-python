@@ -1,6 +1,6 @@
 # Automate the Boring Stuff With Python
 
-These are my submissions for the first amFOSS task. I've added solutions for the theoretical questions as well as the practice projects given at the end of each chapter, till chapter 11.
+These are my submissions for the above mentioned book. I've added solutions for the theoretical questions as well as the practice projects given at the end of each chapter, till chapter 11.
 
 Link to the ebook - [Click here](https://automatetheboringstuff.com/)
 
